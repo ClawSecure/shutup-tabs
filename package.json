@@ -2,7 +2,7 @@
   "name": "shutup-tabs",
   "displayName": "ShutUp Tabs - Auto Close Claude Code Tabs",
   "description": "Stop Claude Code from opening tabs. Auto-closes diff tabs and companion file tabs after a safe delay. Works in VS Code, Cursor, Windsurf, Antigravity. Free by ClawSecure.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "ClawSecure",
   "license": "MIT",
   "engines": {
