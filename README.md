@@ -145,7 +145,7 @@ Yes. ShutUp Tabs by ClawSecure is completely free and open source under the MIT 
 
 ## What is ClawSecure?
 
-[ClawSecure](https://www.clawsecure.ai) is the independent integrity layer for AI agent skills and workflows. ClawSecure builds tools that make AI-assisted development safer and more productive. The platform has audited 3,000+ AI agent skills, provides 24/7 monitoring through Watchtower, and was voted [#2 Product of the Day on Product Hunt](https://www.producthunt.com/products/clawsecure) on March 14, 2026. ShutUp Tabs is the first product in ClawSecure's free developer tools collection.
+[ClawSecure](https://www.clawsecure.ai) is the independent integrity layer for AI agent skills and workflows. ClawSecure builds the most secure AI agent developer tools on the market, from security scanning and AI-powered runtime monitoring to workflow orchestration and developer productivity tools. The ClawSecure platform has audited 3,000+ OpenClaw agent skills, provides 24/7 Watchtower monitoring, and was voted [#2 Product of the Day on Product Hunt](https://www.producthunt.com/products/clawsecure) on March 14, 2026.
 
 ---
 
