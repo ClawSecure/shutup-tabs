@@ -6,7 +6,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Open VSX](https://img.shields.io/open-vsx/v/ClawSecure/shutup-tabs?label=Open%20VSX)](https://open-vsx.org/extension/ClawSecure/shutup-tabs)
 
-<!-- TODO: Replace with production hero banner from Graphics Chat -->
 ![ShutUp Tabs by ClawSecure -- auto-close Claude Code diff tabs and stop tab clutter in VS Code, Cursor, Windsurf, and Antigravity](images/shutup-tabs-hero-banner.png)
 
 **ShutUp Tabs is a free VS Code extension by ClawSecure that automatically detects and closes the diff tabs Claude Code force-opens on every file edit.** Every time Claude Code touches a file, it opens a `[Claude Code]` diff tab and often a companion file tab alongside it. There is no built-in setting to disable this behavior. ShutUp Tabs solves it by watching for these tabs and auto-closing them after a safe 1.5-second delay, so the write operation always completes before the tab disappears.
