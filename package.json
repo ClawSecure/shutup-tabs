@@ -1,0 +1,95 @@
+{
+  "name": "shutup-tabs",
+  "displayName": "ShutUp Tabs - Auto Close Claude Code Tabs",
+  "description": "Stop Claude Code from opening tabs. Auto-closes diff tabs and companion file tabs after a safe delay. Works in VS Code, Cursor, Windsurf, Antigravity. Free by ClawSecure.",
+  "version": "1.0.0",
+  "publisher": "ClawSecure",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClawSecure/shutup-tabs"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "tab-clutter",
+    "close-tabs",
+    "diff",
+    "focus",
+    "productivity",
+    "ai-tabs",
+    "cursor",
+    "windsurf",
+    "antigravity"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1a1a2e",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "ShutUp Tabs",
+      "properties": {
+        "shutupTabs.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable auto-closing of Claude Code diff and file tabs"
+        },
+        "shutupTabs.closeDelay": {
+          "type": "number",
+          "default": 1500,
+          "description": "Milliseconds to wait before closing a tab (allows Claude's write to complete)"
+        },
+        "shutupTabs.closeDiffTabs": {
+          "type": "boolean",
+          "default": true,
+          "description": "Auto-close [Claude Code] diff tabs"
+        },
+        "shutupTabs.closeFileTabs": {
+          "type": "boolean",
+          "default": true,
+          "description": "Auto-close file tabs opened alongside Claude Code diffs"
+        },
+        "shutupTabs.showNotifications": {
+          "type": "boolean",
+          "default": false,
+          "description": "Show a notification when tabs are closed (useful for debugging)"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "shutupTabs.toggle",
+        "title": "ShutUp Tabs: Toggle On/Off"
+      },
+      {
+        "command": "shutupTabs.closeAllClaudeTabs",
+        "title": "ShutUp Tabs: Close All Claude Code Tabs Now"
+      },
+      {
+        "command": "shutupTabs.showStats",
+        "title": "ShutUp Tabs: Show Session Stats"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/vscode": "^1.95.0",
+    "@vscode/vsce": "^3.2.2",
+    "typescript": "^5.7.0"
+  }
+}
