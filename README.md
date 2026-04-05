@@ -1,5 +1,7 @@
 # ShutUp Tabs -- Auto-Close Claude Code Diff Tabs in VS Code
 
+[![#2 Product of the Day](https://img.shields.io/badge/%232_Product_of_the_Day-Product_Hunt-FF6154?style=for-the-badge&logo=producthunt&logoColor=white&labelColor=101010)](https://www.producthunt.com/products/clawsecure)
+
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/ClawSecure.shutup-tabs?label=VS%20Code%20Marketplace&color=blue)](https://marketplace.visualstudio.com/items?itemName=ClawSecure.shutup-tabs)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/ClawSecure.shutup-tabs?color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=ClawSecure.shutup-tabs)
 [![Rating](https://img.shields.io/visual-studio-marketplace/r/ClawSecure.shutup-tabs?color=orange)](https://marketplace.visualstudio.com/items?itemName=ClawSecure.shutup-tabs)
