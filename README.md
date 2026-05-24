@@ -156,9 +156,9 @@ ClawSecure builds the most secure AI agent developer tools on the market. We shi
 
 | Tool | What It Does |
 |------|-------------|
-| **[Claude Timestamps](https://github.com/ClawSecure/claude-timestamps)** | Live timestamped session transcripts for Claude Code. Sidebar showing every message with exact timestamps across all workspaces. |
 | **[ShutUp Tabs](https://github.com/ClawSecure/shutup-tabs)** | Auto-closes Claude Code diff tabs in VS Code, Cursor, Windsurf, Antigravity, and all VS Code forks. |
 | **[Railgun](https://github.com/ClawSecure/railgun)** | Deterministic agent orchestration engine. YAML-defined pipelines with runtime limits, concurrency caps, and per-step observability. |
+| **[Claude Timestamps](https://github.com/ClawSecure/claude-timestamps)** | Live timestamped session transcripts for Claude Code. Sidebar showing every message with exact timestamps across all workspaces. |
 
 See all free tools at **[openclaw-developer-tools](https://github.com/ClawSecure/openclaw-developer-tools)**. New tools ship weekly.
 
